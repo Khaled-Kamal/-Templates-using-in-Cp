@@ -21,6 +21,9 @@ int main() {
     for (auto it: s)
         cout << it << " ";
     // 1 3 4
+     cout << st.order_of_key(5); // هيبرنت عدد الارقام اللي اقل من الرقم اللي هحطه هنا
+    cout << *st.find_by_order(0) << '\n'; // ببصيلة انديكس وهو بيرجع الفاليو .. بيبدا من زيرو
+    
 
     return 0;
 }
@@ -29,5 +32,5 @@ int main() {
 // using less_equal -- > sorted && not inque
 
 // Funcation 
-// 1 - order_of_key(x) || Finding No. of elements smaller than x in the set
-// 2 - find_by_order(x) || Finding the element at thr xTh index in the set || O(logN)
+// 1 - order_of_key(x) || Finding No. of elements smaller than x in the set ع
+// 2 - find_by_order(x) || Finding the element at thr xTh index in the set || O(logN) 
