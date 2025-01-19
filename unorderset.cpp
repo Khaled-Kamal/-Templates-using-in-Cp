@@ -27,3 +27,7 @@ int main() {
 
 // using less --> As if it Were ( Set) sorted && inque
 // using less_equal -- > sorted && not inque
+
+// Funcation 
+// 1 - order_of_key(x) || Finding No. of elements smaller than x in the set
+// 2 - find_by_order(x) || Finding the element at thr xTh index in the set || O(logN)
