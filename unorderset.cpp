@@ -4,7 +4,7 @@
 
 using namespace __gnu_pbds;
 using namespace std;
-
+// in less<int> بحدد نوع الداتا اللي عندي
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> orderedSet;
 
 int main() {
