@@ -24,3 +24,6 @@ int main() {
 
     return 0;
 }
+
+// using less --> As if it Were ( Set) sorted && inque
+// using less_equal -- > sorted && not inque
