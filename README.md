@@ -1,1 +1,1 @@
-Templates in Problem Solving
+Templates in Problem Solving.
