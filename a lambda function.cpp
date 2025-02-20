@@ -11,7 +11,7 @@ void solve()
         cin >> x ;
         freq[x]++;
     }
-    // Sort the array using a lambda function
+    // Sort the array using a lambda function_
     sort(a.begin(), a.end(), [&](int a, int b) {
         if (freq[a] != freq[b]) // Sort by frequency (ascending)
             return freq[a] < freq[b]; // // If equal frequency, sort by value (descending)
